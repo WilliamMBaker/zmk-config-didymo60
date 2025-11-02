@@ -1,7 +1,7 @@
 if SHIELD_DIDYMO60_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Didymo60"
+    default "didymo60"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
