@@ -1,6 +1,18 @@
 {
   "id": "didymo60",
   "name": "didymo60",
+  "shields": [
+    {
+      "name": "left",
+      "overlay": "boards/shields/didymo60_left.overlay",
+      "conf": "boards/shields/didymo60_left.conf"
+    },
+    {
+      "name": "right",
+      "overlay": "boards/shields/didymo60_right.overlay",
+      "conf": "boards/shields/didymo60_right.conf"
+    }
+  ],
   "layouts": {
     "default_transform": {
       "name": "default_transform",
