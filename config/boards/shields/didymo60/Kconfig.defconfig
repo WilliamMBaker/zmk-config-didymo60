@@ -1,0 +1,16 @@
+if SHIELD_DIDYMO60_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "didymo60"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DIDYMO60_LEFT || SHIELD_DIDYMO60_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
