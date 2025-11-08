@@ -1,0 +1,7 @@
+# No whitespace after comma or in name!
+
+config SHIELD_DIDYMO60_LEFT
+    def_bool $(shields_list_contains,didymo60_left)
+
+config SHIELD_DIDYMO60_RIGHT
+    def_bool $(shields_list_contains,didymo60_right)

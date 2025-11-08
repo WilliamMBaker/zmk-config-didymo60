@@ -1,4 +1,4 @@
-#include "aurora40.dtsi"
+#include "didymo60.dtsi"
 
 &default_transform {
     col-offset = <20>;
